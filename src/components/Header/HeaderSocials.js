@@ -14,6 +14,7 @@ function HeaderSocials() {
             href="https://www.linkedin.com/in/aniruddh-udayan-997534226/"
             target="_blank"
             className="linkdin"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -23,6 +24,7 @@ function HeaderSocials() {
             href="https://github.com/AniruddhUdayan"
             target="_blank"
             className="github"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -32,6 +34,7 @@ function HeaderSocials() {
             href="https://twitter.com/Anirudd67572848"
             target="_blank"
             className="twitter"
+            rel="noreferrer"
           >
             <FaTwitterSquare />
           </a>
@@ -41,6 +44,7 @@ function HeaderSocials() {
             href="https://www.instagram.com/_aniruddh.__/"
             target="_blank"
             className="instagram"
+            rel="noreferrer"
           >
             <FaInstagramSquare />
           </a>

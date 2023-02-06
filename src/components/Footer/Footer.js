@@ -30,16 +30,32 @@ function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/aniruddh-udayan-997534226/">
+        <a
+          href="https://www.linkedin.com/in/aniruddh-udayan-997534226/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://github.com/AniruddhUdayan">
+        <a
+          href="https://github.com/AniruddhUdayan"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithubSquare />
         </a>
-        <a href="https://twitter.com/Anirudd67572848">
+        <a
+          href="https://twitter.com/Anirudd67572848"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaTwitterSquare />
         </a>
-        <a href="https://www.instagram.com/_aniruddh.__/">
+        <a
+          href="https://www.instagram.com/_aniruddh.__/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaInstagramSquare />
         </a>
       </div>
