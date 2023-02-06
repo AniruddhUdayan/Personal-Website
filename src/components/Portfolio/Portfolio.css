@@ -1,0 +1,92 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+.portfolio__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    height: 50vh;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: var(--transition);
+    /* transform: scale(1.05); */
+}
+.portfolio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+    transform: scale(1.05);
+}
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+    height: 24vh;
+    /* background-image: url('../../assets/expense.jpg');
+    background-size: contain; */
+}
+.portfolio__item-image img{
+    height: 24vh;
+}
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
+}
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    font-size: 15px;
+    margin: 0;
+    padding: 3px 10px;
+    /* font-size: 10px;
+    padding: 5px 5px; */
+    position: relative;
+    display: inline-block;
+    /* margin: 15px; */
+    /* padding: 15px 30px; */
+    text-align: center;
+    /* font-size: 18px; */
+    /* letter-spacing: 1px; */
+    /* text-decoration: none; */
+    color: #668ba4;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #668ba4;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #668ba4;
+}
+.btn:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #668ba4;
+  }
+  .btn:active {
+    transform: scale(0.9);
+  }
+
+@media screen and (max-width : 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .portfolio__item-image{
+        height: 20vh;
+    }
+    .portfolio__item-image img{
+        height: 20vh;
+    }
+    .portfolio__item{
+        height: 55vh;
+    }
+}
+@media screen and (max-width : 600px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .portfolio__item{
+        height: 45vh;
+    }
+}
+
