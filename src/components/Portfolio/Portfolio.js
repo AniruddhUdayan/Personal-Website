@@ -1,11 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
-import project from '../../assets/img1.jpg';
 import expenseTracker from '../../assets/expense.jpg';
 import ReactMeals from '../../assets/ReactMeals.jpg';
 import ToDo from '../../assets/todo.jpg';
 import TicTacToe from '../../assets/tictactoe.jpg';
 import Crypto from '../../assets/crypto.jpg';
+import Website from '../../assets/website.jpg';
 
 function Portfolio() {
   return (
@@ -39,15 +39,20 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img alt="portfolio" src={project}></img>
+            <img alt="portfolio" src={Website}></img>
           </div>
-          <h3>Personal Portfolio</h3>
+          <h3>Personal Website</h3>
           <div className="portfolio__item-cta">
-            <a href="/" className="btn" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/AniruddhUdayan/Personal-Website"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
             <a
-              href="/"
+              href="https://aniruddh-website26.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
