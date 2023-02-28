@@ -1,7 +1,7 @@
 import React from 'react';
 import './DownloadBtn.css';
 import { FaDownload } from 'react-icons/fa';
-import CV from '../../assets/Myresume.pdf';
+import CV from '../../assets/UpdatedResume.pdf';
 
 function DownloadBtn() {
   return (
