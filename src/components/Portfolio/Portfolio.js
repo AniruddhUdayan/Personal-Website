@@ -2,10 +2,10 @@ import React from 'react';
 import './Portfolio.css';
 import expenseTracker from '../../assets/expense.jpg';
 import ReactMeals from '../../assets/ReactMeals.jpg';
-import ToDo from '../../assets/todo.jpg';
 import TicTacToe from '../../assets/tictactoe.jpg';
 import Crypto from '../../assets/crypto.jpg';
 import Website from '../../assets/website.jpg';
+import Dashboard from '../../assets/dashboard.jpg';
 
 function Portfolio() {
   return (
@@ -13,6 +13,30 @@ function Portfolio() {
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img alt="todo" src={Dashboard}></img>
+          </div>
+          <h3>E-Vision</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/AniruddhUdayan/Evision"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://evision-dashboard-frontend.onrender.com"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img alt="crypto" src={Crypto}></img>
@@ -109,30 +133,7 @@ function Portfolio() {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img alt="todo" src={ToDo}></img>
-          </div>
-          <h3>To-do List App</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/AniruddhUdayan/Todo-list"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://to-do-list26.netlify.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img alt="tictactoe" src={TicTacToe}></img>
